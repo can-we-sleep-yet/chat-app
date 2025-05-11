@@ -27,6 +27,7 @@ Thanks for being part of this project! Please follow these guidelines to ensure 
 Follow the conventional format: <b>type(scope): short description</b>
 
 - Common types:
+
   - `feat`: New feature
   - `fix`: Bug fix
   - `docs`: Documentation only changes
@@ -34,6 +35,11 @@ Follow the conventional format: <b>type(scope): short description</b>
   - `refactor`: Code changes that don't fix bugs or add features
   - `test`: Adding or updating tests
   - `chore`: Misc tasks like build config, updates, etc.
+
+- Example:
+  ```
+  git commit -m "docs" -m "Commit message example in CONTRIBUTING.md"
+  ```
 
 ## Pushing Changes
 
