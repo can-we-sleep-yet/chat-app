@@ -34,6 +34,10 @@ Follow the conventional format: <b>type(scope): short description</b>
   - `refactor`: Code changes that don't fix bugs or add features
   - `test`: Adding or updating tests
   - `chore`: Misc tasks like build config, updates, etc.
+- Example:
+  ```
+  git commit -m "docs" -m "Commit message example in CONTRIBUTING.md"
+  ```
 
 ## Pushing Changes
 
