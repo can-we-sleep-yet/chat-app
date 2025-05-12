@@ -62,6 +62,10 @@ h1 {
   gap: 45px;
 }
 
+.main button {
+  cursor: pointer;
+}
+
 .fa-google {
   font-size: 40px;
   color: #ea4335;
