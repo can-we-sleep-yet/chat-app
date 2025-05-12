@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Chat App - Log In Page</title>
     <link href="../css/login.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/globals.css" />
     <link
       href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
@@ -41,12 +40,17 @@
       <div class="left-section">Chat App</div>
       <div class="right-section">
         <h2>Log In</h2>
-        <form>
+        <form id="logInForm">
           <div class="input-container">
-            <input type="email" placeholder="Email" required />
+            <input type="email" placeholder="Email" required id="email" />
           </div>
           <div class="input-container">
-            <input type="password" placeholder="Password" required />
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              id="password"
+            />
           </div>
           <div class="remember-me">
             <input type="checkbox" id="remember" />
@@ -56,17 +60,19 @@
         </form>
         <div class="or-divider">OR</div>
         <div class="social-icons">
-          <a href="#" target="_blank" class="social-link">
+          <button class="social-icon" id="googleIcon">
             <i class="fab fa-google"></i>
-          </a>
-          <a href="#" target="_blank" class="social-link">
+          </button>
+          <button class="social-icon">
             <i class="fab fa-apple"></i>
-          </a>
+          </button>
         </div>
         <div class="signup-link">
           Need an account? <a href="signup.html">Sign up</a>
         </div>
       </div>
     </div>
+
+    <script type="module" src="../js/login.js"></script>
   </body>
 </html>

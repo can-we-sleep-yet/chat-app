@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/signup.css" />
-    <link rel="stylesheet" href=".../css/globals.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -39,32 +38,32 @@
 
     <div id="rightcontent">
       <p>Create Account</p>
-      <form>
+      <form id="signUpForm">
         <input
           type="text"
           placeholder="Enter Username"
-          id="uname"
+          id="username"
           required
         /><br /><br />
 
         <input
           type="email"
           placeholder="Enter Email"
-          id="emailadd"
+          id="email"
           required
         /><br /><br />
 
         <input
           type="password"
           placeholder="Enter Password"
-          id="pwd"
+          id="password"
           required
         /><br /><br />
 
         <input
           type="password"
           placeholder="Confirm Password"
-          id="pwdconfirm"
+          id="confirmPassword"
           required
         /><br /><br /><br />
 
@@ -75,8 +74,10 @@
         >
         <br /><br /><br /><br />
 
-        <button id="button">Sign Up</button>
+        <button class="button" id="signUpBtn" type="submit">Sign Up</button>
       </form>
     </div>
+
+    <script type="module" src="../js/signup.js"></script>
   </body>
 </html>
